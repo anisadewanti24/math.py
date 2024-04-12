@@ -1,0 +1,13 @@
+"""ini adalah kisah si cantik dan si tampan"""
+#sedang galau menghitung lama berpacaran
+
+jumlah_pacar = 1 #variable angka
+lagi_galau = True #variable boolean
+
+total_hari_pacaran = 86
+jumlah_hari_dalam_sebulan = 30
+
+bulan = total_hari_pacaran / jumlah_hari_dalam_sebulan
+hari = total_hari_pacaran % jumlah_hari_dalam_sebulan
+
+print "si cantik sudah berpacaran dengan si tampan selama " + str (bulan) + " bulan dan " + str (hari) + " hari."
